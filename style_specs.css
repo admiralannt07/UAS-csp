@@ -1,0 +1,151 @@
+@font-face {
+    font-family: Armin_Grotesk_SemiBold;
+    src: url(assets/fonts/Armin-Grotesk/ArminGrotesk-SemiBold.woff2);
+}
+
+@font-face {
+    font-family: Armin_Grotesk_Regular;
+    src: url(assets/fonts/Armin-Grotesk/ArminGrotesk-Normal.woff2);
+}
+
+@font-face {
+    font-family: Armin_Grotesk_Ultralight;
+    src: url(assets/fonts/Armin-Grotesk/ArminGrotesk-UltraLight.woff2);
+}
+
+@font-face {
+    font-family: Helvetica_light;
+    src: url(assets/fonts/Helvetica/helvetica-light-587ebe5a59211.ttf);
+}
+
+@font-face {
+    font-family: Helvetica_regular;
+    src: url(assets/fonts/Helvetica/Helvetica.ttf);
+}
+
+@font-face {
+    font-family: Helvetica_rounded;
+    src: url(assets/fonts/Helvetica/helvetica-rounded-bold-5871d05ead8de.otf);
+}
+
+/* navbar styling */
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.85);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.nav-link, .navbar-brand {
+    color: #FFFFFF;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #CCCCCC; /* Adjust hover color as desired */
+}
+
+/* Light navbar styles (for battery section) */
+.navbar.light-navbar {
+    background-color: #f1f1f1;
+}
+
+.navbar.light-navbar .nav-link,
+.navbar.light-navbar .navbar-brand {
+    color: #000000;
+}
+
+.navbar.light-navbar .nav-link:hover {
+    color: #2837a5; /* Adjust hover color for light mode */
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+    margin-left: 8.5%;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 80px; /* Adjust the value as needed */
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link:hover {
+    color: #EA8FFF; /* Bootstrap primary color or your preferred color */
+    transition: all ease-in-out .2s;
+}
+
+/* chipset section styling */
+#chipset-section .p-4 {
+    padding: 2rem;
+}
+
+#chipset-section .container .text-container h1,h2 {
+    font-size: 4rem;
+}
+
+#battery-section .battery-performance {
+    margin-top: 1.5rem;
+}
+  
+#battery-section .battery-performance p {
+    margin: 0;
+}
+  
+#battery-section .battery-performance:nth-child(1) {
+    text-align: left;
+}
+
+#durability-section {
+    padding: 4rem 0;
+}
+  
+#durability-section h1 {
+    line-height: 1.2;
+}
+  
+#durability-section p {
+    line-height: 1.6;
+}
+  
+#durability-section img {
+    max-width: 80%;
+    height: auto;
+    margin: auto;
+}
+  
+@media (max-width: 1200px) {
+    h1, h2 {
+        font-size: 3.5rem !important;
+    }
+
+    p {
+        font-size: 1.7rem !important;
+    }
+
+    select {
+        font-size: 1.7rem !important;
+    }
+} 
+
+@media (max-width: 768px) {
+    h1, h2 {
+        font-size: 2.8rem !important;
+    }
+
+    p {
+        font-size: 1.3rem !important;
+    }
+
+    select {
+        font-size: 1.3rem !important;
+    }
+}

@@ -1,0 +1,494 @@
+@font-face {
+    font-family: Armin_Grotesk_SemiBold;
+    src: url(assets/fonts/Armin-Grotesk/ArminGrotesk-SemiBold.woff2);
+}
+
+@font-face {
+    font-family: Armin_Grotesk_Regular;
+    src: url(assets/fonts/Armin-Grotesk/ArminGrotesk-Normal.woff2);
+}
+
+@font-face {
+    font-family: Armin_Grotesk_Ultralight;
+    src: url(assets/fonts/Armin-Grotesk/ArminGrotesk-UltraLight.woff2);
+}
+
+@font-face {
+    font-family: Helvetica_light;
+    src: url(assets/fonts/Helvetica/helvetica-light-587ebe5a59211.ttf);
+}
+
+@font-face {
+    font-family: Helvetica_regular;
+    src: url(assets/fonts/Helvetica/Helvetica.ttf);
+}
+
+@font-face {
+    font-family: Helvetica_rounded;
+    src: url(assets/fonts/Helvetica/helvetica-rounded-bold-5871d05ead8de.otf);
+}
+
+/* navbar styling */
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+    margin-left: 8.5%;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 80px; /* Adjust the value as needed */
+}
+
+.navbar .nav-link {
+    color: #000;
+}
+
+.navbar .nav-link:hover {
+    color: #2837a5; /* Bootstrap primary color or your preferred color */
+    transition: all ease-in-out .2s;
+}
+
+/* hero section styling */
+
+.btn-radius {
+    border-radius: 20px;
+}
+
+.carousel-inner {
+    border-radius: 25px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+}
+
+.caption-title {
+    font-size: 2em;
+}
+
+.caption-description {
+    font-size: 1.3em;
+}
+
+/* apple intelligence section styling */
+
+#apple-intelligence {
+    padding: 3rem 0;
+    background: linear-gradient(to bottom, #F1F1F1, #FFFFFF);
+}
+  
+#apple-intelligence .text-container p {
+    font-family: "Armin_Grotesk_SemiBold", sans-serif;
+    font-size: 1.2rem;
+    color: #4C4C4C;
+    line-height: 1.6;
+}
+  
+#apple-intelligence .text-container p span {
+    color: #000;
+    font-weight: bold;
+}
+  
+#apple-intelligence img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+  
+#apple-intelligence p {
+    font-family: "Armin_Grotesk_Ultralight", sans-serif;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+/* audio feature section styling */
+
+.audio-feature-section {
+    background: linear-gradient(to bottom, #F1F1F1 80%, #FFFFFF 20%);
+}
+
+.audio-feature-container {
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.audio-feature-heading-1 {
+    font-family: 'Armin_Grotesk_SemiBold';
+    color: #868686;
+    font-size: 3rem;
+}
+
+.audio-feature-heading-2 {
+    font-family: 'Armin_Grotesk_SemiBold';
+    color: #000000;
+    font-size: 2.4rem;
+}
+
+.audio-feature-image img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.audio-feature-description {
+    font-family: 'Armin_Grotesk_SemiBold';
+    color: #4C4C4C;
+    font-size: 1.8rem;
+    line-height: 1.6;
+}
+
+.audio-feature-description .text-black {
+    color: #000000;
+}
+
+.audio-feature-card {
+    border-top: 3px solid #868686;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Armin_Grotesk_SemiBold';
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: #4C4C4C;
+}
+
+/* camera feature section styling */
+
+.camera-feature-section {
+    background-color: #FFFFFF;
+    padding: 50px 0;
+}
+
+.camera-feature-heading-1 {
+    font-family: 'Armin_Grotesk_SemiBold';
+    color: #7587FF;
+    font-size: 4rem;
+}
+
+.camera-feature-heading-2 {
+    font-family: 'Armin_Grotesk_SemiBold';
+    color: #000000;
+    font-size: 3rem;
+    margin-top: 10px;
+}
+
+.camera-feature-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* other products styling */
+
+.other-products-section {
+    background: linear-gradient(to bottom, #FFFFFF, #F1F1F1);
+    padding: 50px 0;
+}
+
+.headline {
+    font-family: 'Armin_Grotesk_SemiBold';
+    color: #000000;
+}
+
+.product-name {
+    font-family: 'Armin_Grotesk_SemiBold';
+    margin-top: 20px;
+}
+
+.product-description {
+    font-family: 'Helvetica_light';
+}
+
+.footer-section {
+    background-color: rgba(248, 248, 248, 0.85);
+    border-top: 1px solid #B4B4B4;
+    padding: 20px 0;
+}
+
+.footer-section p {
+    font-family: 'Helvetica_light';
+    color: #000000;
+}
+
+.social-icons {
+    font-size: 24px;
+}
+
+.social-icons i {
+    margin: 0 10px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.social-icons i:hover {
+    color: #2837a5;
+    transition: all ease-in-out .2s;
+}
+
+/* Responsive font sizes for smaller screens */
+
+@media (max-width: 1200px) {
+    .btn-primary {
+        font-size: 1rem !important;
+    }
+
+    .buy-button-2 {
+        font-size: 1rem !important;
+    }
+
+    .navbar {
+        font-size: 1rem !important; 
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem !important;
+    }
+
+    .iphone-title {
+        font-size: 3rem !important;
+    }
+
+    .buy-desc {
+        font-size: 1.2rem !important;
+    }
+
+    .highlights-title {
+        font-size: 2rem !important;
+    }
+
+    .caption-title {
+        font-size: 1.8rem !important;
+    }
+
+    .caption-description {
+        font-size: 1.1rem !important;
+    }
+
+    .variants-headline {
+        font-size: 2rem !important;
+    }
+
+    .variants-description {
+        font-size: 1.5rem !important;
+    }
+
+    #apple-intelligence .text-container p {
+        font-size: 1rem !important;
+    }
+
+    #apple-intelligence p {
+        font-size: 1rem !important;
+    }
+
+    .audio-feature-heading-1 {
+        font-size: 2.5rem !important;
+    }
+
+    .audio-feature-heading-2 {
+        font-size: 2rem !important;
+    }
+
+    .audio-feature-description {
+        font-size: 1.5rem !important; 
+    }
+
+    .audio-feature-card {
+        font-size: 1rem !important;
+    }
+
+    .camera-feature-heading-1 {
+        font-size: 2.5rem !important;
+    }
+
+    .camera-feature-heading-2 {
+        font-size: 2rem !important;
+    }
+
+    .headline {
+        font-size: 2.5rem !important;
+    }
+
+    .product-name {
+        font-size: 1.2rem !important;
+    }
+
+    .product-desc-1 {
+        font-size: 1.1rem !important;
+    }
+
+    .product-image {
+        padding-top: 20px !important;
+    }
+
+    .product-cost {
+        font-size: 0.9rem !important;
+    }
+
+    .product-description {
+        font-size: 0.9rem !important;
+    }
+
+    .footer-section p {
+        font-size: 0.9rem !important;
+    }
+
+    .social-icons {
+        font-size: 20px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        font-size: 0.9rem !important;
+    }
+
+    .navbar-brand {
+        font-size: 1rem !important;
+    }
+
+    .highlights-title {
+        font-size: 2rem !important;
+    }
+
+    .caption-title {
+        font-size: 1.4rem !important;
+    }
+
+    .caption-description {
+        font-size: 0.8rem !important;
+    }
+
+    #apple-intelligence .text-container p {
+        font-size: 0.9rem !important;
+    }
+
+    #apple-intelligence p {
+        font-size: 0.9rem !important;
+    }
+
+    .audio-feature-heading-1 {
+        font-size: 2rem !important;
+    }
+
+    .audio-feature-heading-2 {
+        font-size: 1.8rem !important; 
+    }
+
+    .audio-feature-description {
+        font-size: 1.2rem !important;
+    }
+
+    .audio-feature-card {
+        font-size: 0.9rem !important;
+    }
+
+    .camera-feature-heading-1 {
+        font-size: 2rem !important;
+    }
+
+    .camera-feature-heading-2 {
+        font-size: 1.8rem !important;
+    }
+
+    .headline {
+        font-size: 2rem !important;
+    }
+
+    .product-name {
+        font-size: 1.3rem !important;
+    }
+
+    .product-description {
+        font-size: 1rem !important;
+    }
+
+    .footer-section p {
+        font-size: 0.8rem !important;
+    }
+
+    .social-icons {
+        font-size: 18px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        font-size: 0.8rem !important;
+    }
+
+    .navbar-brand {
+        font-size: 0.9rem !important;
+    }
+
+    .caption-title {
+        font-size: 1rem !important;
+    }
+
+    .caption-description {
+        font-size: 0.7rem !important;
+    }
+
+    #apple-intelligence .text-container p {
+        font-size: 0.8rem !important;
+    }
+
+    #apple-intelligence p {
+        font-size: 0.8rem !important;
+    }
+
+    .audio-feature-heading-1 {
+        font-size: 1.8rem !important;
+    }
+
+    .audio-feature-heading-2 {
+        font-size: 1.6rem !important;
+    }
+
+    .audio-feature-description {
+        font-size: 1rem !important;
+    }
+
+    .audio-feature-card {
+        font-size: 0.8rem !important;
+    }
+
+    .camera-feature-heading-1 {
+        font-size: 1.8rem !important;
+    }
+
+    .camera-feature-heading-2 {
+        font-size: 1.6rem !important;
+    }
+
+    .headline {
+        font-size: 1.3rem !important;
+    }
+
+    .product-name {
+        font-size: 0.9rem !important;
+    }
+
+    .product-description {
+        font-size: 0.7rem !important;
+    }
+
+    .footer-section p {
+        font-size: 0.7rem !important;
+    }
+
+    .social-icons {
+        font-size: 16px !important;
+    }
+}

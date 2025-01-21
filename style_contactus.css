@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Armin_Grotesk_SemiBold;
+    src: url(assets/fonts/Armin-Grotesk/ArminGrotesk-SemiBold.woff2);
+}
+
+@font-face {
+    font-family: Armin_Grotesk_Regular;
+    src: url(assets/fonts/Armin-Grotesk/ArminGrotesk-Normal.woff2);
+}
+
+@font-face {
+    font-family: Armin_Grotesk_Ultralight;
+    src: url(assets/fonts/Armin-Grotesk/ArminGrotesk-UltraLight.woff2);
+}
+
+@font-face {
+    font-family: Helvetica_light;
+    src: url(assets/fonts/Helvetica/helvetica-light-587ebe5a59211.ttf);
+}
+
+@font-face {
+    font-family: Helvetica_regular;
+    src: url(assets/fonts/Helvetica/Helvetica.ttf);
+}
+
+@font-face {
+    font-family: Helvetica_rounded;
+    src: url(assets/fonts/Helvetica/helvetica-rounded-bold-5871d05ead8de.otf);
+}
+
+.form-section {
+    background: url(assets/contact\ us/bg-login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* navbar styling */
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+    margin-left: 8.5%;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 80px; /* Adjust the value as needed */
+}
+
+.navbar .nav-link {
+    color: #000;
+}
+
+.navbar .nav-link:hover {
+    color: #2837a5; /* Bootstrap primary color or your preferred color */
+    transition: all ease-in-out .2s;
+}
+
+
+
+h2, label {
+    font-family: 'Armin_Grotesk_SemiBold';
+}
+
+.headline-container h2, p {
+    color: #ffffff;
+}
+
+p {
+    font-family: 'Helvetica_Regular';
+}
+
+.btn {
+    font-family: 'Armin_Grotesk_Regular';
+}
